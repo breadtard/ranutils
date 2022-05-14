@@ -1,4 +1,4 @@
-# passgen (pg.c)
+# passgen (pg)
 ## a password generator
 
 ```bash
