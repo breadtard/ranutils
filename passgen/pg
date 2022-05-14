@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# parse opts
+while getopts "l:c:" opts; do
+	case "$opts" in
+	l) LEN=${OPTARG}     ;;
+	c) CHARSET=${OPTARG};;
+	*) return 1	     ;;
+	esac
+done
+
+if [ -z "$LEN" ]; then
+	LEN=64
+fi
+
+if [ -z "$CHARSET" ]; then
+	    base64 -w 0 /dev/urandom | head -c "$LEN"
+else
+	 base64 -w 0 /dev/urandom | tr -cd "$CHARSET" | head -c "$LEN"
+fi
+
+echo '' # for newline
