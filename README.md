@@ -1,9 +1,8 @@
 # Ranutils
-## The random utils that arent good enough to go into uwutools but arent bad enough to stay on my hdd forever
+## The random utils that are almost good
 
 ### What are ranutils?
-Ranutils are random programs are made that do one thing, and one thing ~~well~~ bad. They
-arent good enough to deserve the title of an uwuTool™.
+Ranutils are random programs are made that do one thing, and one thing ~~well~~ bad.
 ### Why are these on github?
 They might be bad, but they might be useful to someone I guess (and hope).
 ### How compile?
