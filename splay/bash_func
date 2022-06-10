@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+cplay() {
+	export FILE="$1"
+	ffmpeg -i "$FILE" -f wav /tmp/splaywavf -hide_banner -loglevel panic -y
+	splay /tmp/splaywavf
+	rm /tmp/splaywavf
+}
+
+
+
