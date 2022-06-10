@@ -19,11 +19,12 @@ no i just hate big companies and the +n makes them seethe
 ### Can i get a list of programs?
 sure
 
-| program name: | what it does                    |
-|---------------|---------------------------------|
-| tripcode      | generates 4chan tripcodes       |
-| progresscopy  | `cp` but outputs progress       |
-| passgen       | generates a password, fancy-ish |
+| program name: | what it does                     |
+|---------------|----------------------------------|
+| tripcode      | generates 4chan tripcodes        |
+| progresscopy  | `cp` but outputs progress        |
+| passgen       | generates a password, fancy-ish  |
+| splay         | shitty music player in sdl and c |
 
 also more will be added later
 ### I wanna contribute
